@@ -13,19 +13,17 @@ import img10 from "../assets/1771173110735.jpg";
 const images = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10];
 
 function Realisation() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState(null);
 
-  // Fermeture avec ESC
+  // Gestion du clavier (ESC, flèches)
   useEffect(() => {
-    const handleKey = (e: KeyboardEvent) => {
+    const handleKey = (e) => {
       if (e.key === "Escape") setOpenIndex(null);
       if (e.key === "ArrowRight" && openIndex !== null) {
-        setOpenIndex((prev) => (prev! + 1) % images.length);
+        setOpenIndex((prev) => (prev + 1) % images.length);
       }
       if (e.key === "ArrowLeft" && openIndex !== null) {
-        setOpenIndex((prev) =>
-          prev! === 0 ? images.length - 1 : prev! - 1
-        );
+        setOpenIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
       }
     };
 
