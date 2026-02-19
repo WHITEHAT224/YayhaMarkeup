@@ -26,9 +26,9 @@ function About() {
             </h2>
 
             <p className="text-base sm:text-lg text-gray-600 mb-6 leading-relaxed">
-              Passionnée par l'art du maquillage depuis plus de 10 ans, je mets mon expertise
+              Passionnée par l'art du maquillage depuis plus de 4 ans, je mets mon expertise
               à votre service pour révéler votre beauté naturelle. Spécialisée dans le maquillage
-              de mariée, j'ai accompagné des centaines de femmes pour leur jour le plus important.
+              de mariée, j'ai accompagné des vinghtenes de femmes pour leur jour le plus important.
             </p>
 
             <p className="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed">
@@ -48,7 +48,7 @@ function About() {
               </div>
 
               <div className="bg-purple-50 p-6 rounded-2xl hover:shadow-lg transition-shadow">
-                <div className="text-3xl font-bold text-purple-600">10+</div>
+                <div className="text-3xl font-bold text-purple-600">5+</div>
                 <div className="text-gray-600 text-sm sm:text-base">
                   Années d'expérience
                 </div>

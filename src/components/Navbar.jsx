@@ -10,7 +10,7 @@ function Navbar() {
           
           {/* Logo */}
           <h1 className="text-2xl font-bold text-pink-600">
-            Yahya <span className="text-green-400">Markeup</span>
+            Yahya <span className="text-green-400">Makeup</span>
           </h1>
 
           {/* Desktop Menu */}

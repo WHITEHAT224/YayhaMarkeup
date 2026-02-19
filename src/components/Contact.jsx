@@ -54,7 +54,7 @@ function Contact() {
                 <span className="text-2xl">🕐</span>
                 <div>
                   <p className="font-semibold text-gray-800">Horaires</p>
-                  <p className="text-gray-600">Lun-Sam: 9h-19h</p>
+                  <p className="text-gray-600">Mardi-Dimanche: 9h-19h</p>
                 </div>
               </div>
 

@@ -66,7 +66,7 @@ function Services() {
             </p>
 
             <ul className="text-left text-gray-600 space-y-2 mb-6 text-sm sm:text-base">
-              <li>• Soins du visage</li>
+              <li>• Maquillage de mariée et attache foulard</li>
               <li>• Maquillage de jour/soirée</li>
               <li>• Mise en forme sourcils</li>
               <li>• Conseils personnalisés</li>
@@ -102,6 +102,7 @@ function Services() {
               <li>• Techniques avancées</li>
               <li>• Maquillage de soirée</li>
               <li>• Certificat remis</li>
+              <li>• Maquillage mariée</li>
             </ul>
 
             <a
